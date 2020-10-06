@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj": {}
+    "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj": {}
   },
   "projects": {
     "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj": {
@@ -76,6 +76,84 @@
             "xunit": {
               "target": "Package",
               "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
+        "projectName": "ProjetoQA.Tests",
+        "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
+        "packagesPath": "C:\\Users\\danielle.coelho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danielle.coelho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/PlataformaDPVAT/_packaging/PlataformaDPVAT%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj": {
+                "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           },
           "imports": [

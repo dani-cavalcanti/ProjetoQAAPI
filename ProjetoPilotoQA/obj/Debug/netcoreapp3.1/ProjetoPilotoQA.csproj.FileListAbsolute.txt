@@ -517,9 +517,6 @@ C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bi
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.csprojAssemblyReference.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.AssemblyInfoInputs.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.AssemblyInfo.cs
-C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.csproj.CoreCompileInputs.cache
-C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.RazorAssemblyInfo.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.RazorAssemblyInfo.cs
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.TagHelpers.input.cache
