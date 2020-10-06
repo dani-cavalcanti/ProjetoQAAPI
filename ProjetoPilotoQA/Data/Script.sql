@@ -1,0 +1,11 @@
+CREATE TABLE sinistros (
+	SinistroId INT(10) AUTO_INCREMENT PRIMARY KEY,
+	DataSinistro DATE,
+	NomeVitima VARCHAR(50) NULL DEFAULT NULL,
+	CPF VARCHAR(20) NULL DEFAULT NULL,
+	DataNasc DATE,
+	Primary KEY (SinistroId)
+	
+)
+ENGINE = INNODB
+;
