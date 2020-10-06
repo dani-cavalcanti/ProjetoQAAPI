@@ -35,9 +35,9 @@ namespace ProjetoPilotoQA.Controllers
         // GET sem parâmetros para o Findall --> Busca Todos
         [HttpGet]
         [SwaggerResponse((200), Type = typeof(List<Sinistro>))]
-        [SwaggerResponse(204)]
-        [SwaggerResponse(400)]
-        [SwaggerResponse(401)]
+        [SwaggerResponse((204), Type = typeof (NoContentResult))]
+        [SwaggerResponse((400), Type = typeof (BadRequestResult)) ]
+        [SwaggerResponse((401), Type = typeof (UnauthorizedResult))]
         public IActionResult Get()
         {
             return Ok(_sinistroBusiness.FindAll());
@@ -46,9 +46,9 @@ namespace ProjetoPilotoQA.Controllers
         // GET api/v{version:apiVersion}/values/5
         [HttpGet("{id}")]
         [SwaggerResponse((200), Type = typeof(Sinistro))]
-        [SwaggerResponse(204)]
-        [SwaggerResponse(400)]
-        [SwaggerResponse(401)]
+        [SwaggerResponse((204), Type = typeof(NoContentResult))]
+        [SwaggerResponse((400), Type = typeof(BadRequestResult))]
+        [SwaggerResponse((401), Type = typeof(UnauthorizedResult))]
         public IActionResult Get(int id)
         {
             var sinistro = _sinistroBusiness.FindById(id);
@@ -59,8 +59,8 @@ namespace ProjetoPilotoQA.Controllers
         // POST api/v{version:apiVersion}/values
         [HttpPost]
         [SwaggerResponse((201), Type = typeof(Sinistro))]
-        [SwaggerResponse(400)]
-        [SwaggerResponse(401)]
+        [SwaggerResponse((400), Type = typeof(BadRequestResult))]
+        [SwaggerResponse((401), Type = typeof(UnauthorizedResult))]
         public IActionResult Post( [FromBody] Sinistro sinistro)
         {
           
@@ -74,8 +74,8 @@ namespace ProjetoPilotoQA.Controllers
         //PUT api/v{version:apiVersion}/value/5
         [HttpPut("{id}")]
         [SwaggerResponse((202), Type = typeof(Sinistro))]
-        [SwaggerResponse(400)]
-        [SwaggerResponse(401)]
+        [SwaggerResponse((400), Type = typeof(BadRequestResult))]
+        [SwaggerResponse((401), Type = typeof(UnauthorizedResult))]
         public IActionResult Put([FromBody] Sinistro sinistro)
         {
             if (sinistro == null) return BadRequest();
@@ -87,8 +87,8 @@ namespace ProjetoPilotoQA.Controllers
         //DELETE api/value/5
         [HttpDelete("{id}")]
         [SwaggerResponse(204)]
-        [SwaggerResponse(400)]
-        [SwaggerResponse(401)]
+        [SwaggerResponse((400), Type = typeof(BadRequestResult))]
+        [SwaggerResponse((401), Type = typeof(UnauthorizedResult))]
         public IActionResult Delete(int id)
         {
             _sinistroBusiness.Delete(id);

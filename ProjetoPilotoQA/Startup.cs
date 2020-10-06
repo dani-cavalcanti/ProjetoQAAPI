@@ -18,6 +18,7 @@ using ProjetoPilotoQA.Repository;
 using ProjetoPilotoQA.Repository.Implementations;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Rewrite;
+using Microsoft.Net.Http.Headers;
 
 namespace ProjetoPilotoQA
 {
@@ -36,18 +37,27 @@ namespace ProjetoPilotoQA
             var connectionString = Configuration["MySqlConnection:MySqlConnectionString"];
             services.AddDbContext<MySQLContext>(options => options.UseMySql(connectionString));
 
+            services.AddMvc(options =>
+            {
+                options.RespectBrowserAcceptHeader = true;
+                options.FormatterMappings.SetMediaTypeMappingForFormat("xml", MediaTypeHeaderValue.Parse("text/xml"));
+                options.FormatterMappings.SetMediaTypeMappingForFormat("json", MediaTypeHeaderValue.Parse("application/json"));
+
+            })
+                .AddXmlSerializerFormatters();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
                         Version = "v1",
-                        Title = "Projeto QA API REST",
-                        Description = "Projeto QA de exemplo API REST para a escrita de documentação de testes"
+                        Title = "Projeto API REST QA ",
+                        Description = "Projeto QA de API REST para exemplo  da escrita de documentação de QA no Azure DevOps"
                     });
             });
-            services.AddMvc();
-            services.AddApiVersioning();
+            
+            services.AddApiVersioning(option => option.ReportApiVersions = true);
 
 
             //Injeção de Dependências
@@ -79,7 +89,7 @@ namespace ProjetoPilotoQA
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            }); 
 
          }
     }

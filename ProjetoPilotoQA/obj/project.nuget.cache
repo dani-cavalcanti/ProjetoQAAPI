@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Kz2dDGjxE/PeamNco46/ePhKgU89W9BP5LisMuvc/n0VRHQa+FlBUYY6J8ilqtdHjJw07IPL81FrOBSrtTEmg==",
+  "dgSpecHash": "rqKDUP+mM1dsM8pyo0aNbesEdPWA7nGIw9HuxjCOyt1xaBCslIwc64nl9nSO9gn1oR8XEK7R5V0yAH5IO1ql7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj",
+  "projectFilePath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danielle.coelho\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
     "C:\\Users\\danielle.coelho\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",

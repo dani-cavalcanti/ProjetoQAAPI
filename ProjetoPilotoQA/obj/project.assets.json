@@ -9229,11 +9229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj",
+      "projectUniqueName": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj",
       "projectName": "ProjetoPilotoQA",
-      "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj",
+      "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj",
       "packagesPath": "C:\\Users\\danielle.coelho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoPilotoQA\\obj\\",
+      "outputPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danielle.coelho\\AppData\\Roaming\\NuGet\\NuGet.Config",
