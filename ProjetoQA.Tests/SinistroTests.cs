@@ -1,3 +1,4 @@
+using ProjetoPilotoQA.Controllers;
 using ProjetoPilotoQA.Models;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,11 @@ namespace ProjetoQA.Tests
         public void GetAllSinistros_SholdReturnAllSinistros()
         {
             var testSinistros = GetTestSinistros();
+            var controller = new SinistrosController(testSinistros);
+
+            var result = controller.Get() as List<Sinistro>;
+            Assert.Equal(testSinistros.Count, result.Count);
+
         }
 
         private List<Sinistro> GetTestSinistros()
@@ -24,7 +30,7 @@ namespace ProjetoQA.Tests
 
             var testSinistros = new List<Sinistro>();
 
-            testSinistros.Add(new Sinistro
+           testSinistros.Add(new Sinistro
             {
                 SinistroId = 1,
                 DataSinistro = dataSinistro,

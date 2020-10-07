@@ -538,3 +538,10 @@ C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\ob
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.dll
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.pdb
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.genruntimeconfig.cache
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.csproj.CoreCompileInputs.cache
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.MvcApplicationPartsAssemblyInfo.cache

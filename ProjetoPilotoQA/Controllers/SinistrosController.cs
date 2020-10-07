@@ -22,12 +22,18 @@ namespace ProjetoPilotoQA.Controllers
     {
         //Declaração do serviço usado
         private readonly ISinistroBusiness _sinistroBusiness;
+        private List<Sinistro> testSinistros;
 
         /*Injeção de uma instância de ISinistroBusiness ao
          criar uma instância de PersonControler */
         public SinistrosController(ISinistroBusiness sinistroBusiness)
         {
             _sinistroBusiness = sinistroBusiness;
+        }
+
+        public SinistrosController(List<Sinistro> testSinistros)
+        {
+            this.testSinistros = testSinistros;
         }
 
         //Mapeia as requisições GET para http://localhost:{porta}/api/v{version:apiVersion}/sinistros
