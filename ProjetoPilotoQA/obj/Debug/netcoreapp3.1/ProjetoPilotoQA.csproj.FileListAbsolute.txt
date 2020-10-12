@@ -542,6 +542,9 @@ C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bi
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\xunit.assert.dll
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\xunit.core.dll
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.TestHost.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.csproj.CoreCompileInputs.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoPilotoQA\obj\Debug\netcoreapp3.1\ProjetoPilotoQA.MvcApplicationPartsAssemblyInfo.cache

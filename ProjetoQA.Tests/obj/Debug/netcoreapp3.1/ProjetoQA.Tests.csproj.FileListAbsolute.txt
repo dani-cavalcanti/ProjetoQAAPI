@@ -238,8 +238,11 @@ C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\bi
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.csprojAssemblyReference.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.AssemblyInfoInputs.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.AssemblyInfo.cs
-C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.csproj.CoreCompileInputs.cache
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.csproj.CopyComplete
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.dll
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.pdb
 C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.genruntimeconfig.cache
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.TestHost.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\danielle.coelho\Desktop\ProjetoPilotoQA\ProjetoQAAPI\ProjetoQA.Tests\obj\Debug\netcoreapp3.1\ProjetoQA.Tests.csproj.CoreCompileInputs.cache

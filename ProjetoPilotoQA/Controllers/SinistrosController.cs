@@ -21,19 +21,14 @@ namespace ProjetoPilotoQA.Controllers
     public class SinistrosController : ControllerBase
     {
         //Declaração do serviço usado
-        private readonly ISinistroBusiness _sinistroBusiness;
-        private List<Sinistro> testSinistros;
+        private readonly ISinistroBusiness sinistroBusiness;
+        
 
         /*Injeção de uma instância de ISinistroBusiness ao
          criar uma instância de PersonControler */
         public SinistrosController(ISinistroBusiness sinistroBusiness)
         {
-            _sinistroBusiness = sinistroBusiness;
-        }
-
-        public SinistrosController(List<Sinistro> testSinistros)
-        {
-            this.testSinistros = testSinistros;
+            this.sinistroBusiness = sinistroBusiness;
         }
 
         //Mapeia as requisições GET para http://localhost:{porta}/api/v{version:apiVersion}/sinistros
@@ -46,7 +41,7 @@ namespace ProjetoPilotoQA.Controllers
         [SwaggerResponse((401), Type = typeof (UnauthorizedResult))]
         public IActionResult Get()
         {
-            return Ok(_sinistroBusiness.FindAll());
+            return Ok(sinistroBusiness.FindAll());
         }
 
         // GET api/v{version:apiVersion}/values/5
@@ -57,7 +52,7 @@ namespace ProjetoPilotoQA.Controllers
         [SwaggerResponse((401), Type = typeof(UnauthorizedResult))]
         public IActionResult Get(int id)
         {
-            var sinistro = _sinistroBusiness.FindById(id);
+            var sinistro = sinistroBusiness.FindById(id);
             if (sinistro == null) return NotFound();
             return Ok(sinistro);
         }
@@ -72,7 +67,7 @@ namespace ProjetoPilotoQA.Controllers
           
             if (sinistro != null && ModelState.IsValid)
             {
-                return new ObjectResult(_sinistroBusiness.Create(sinistro));
+                return new ObjectResult(sinistroBusiness.Create(sinistro));
             }
             return BadRequest();
         }
@@ -85,7 +80,7 @@ namespace ProjetoPilotoQA.Controllers
         public IActionResult Put([FromBody] Sinistro sinistro)
         {
             if (sinistro == null) return BadRequest();
-            var updateSinistro = _sinistroBusiness.Update(sinistro);
+            var updateSinistro = sinistroBusiness.Update(sinistro);
             if (updateSinistro == null) return BadRequest();
             return new ObjectResult(updateSinistro);
         }
@@ -97,7 +92,7 @@ namespace ProjetoPilotoQA.Controllers
         [SwaggerResponse((401), Type = typeof(UnauthorizedResult))]
         public IActionResult Delete(int id)
         {
-            _sinistroBusiness.Delete(id);
+            sinistroBusiness.Delete(id);
             return NoContent();
         }
     }
