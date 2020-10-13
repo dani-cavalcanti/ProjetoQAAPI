@@ -10272,11 +10272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
       "projectName": "ProjetoQA.Tests",
-      "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
+      "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
       "packagesPath": "C:\\Users\\danielle.coelho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\obj\\",
+      "outputPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoQAAPI\\ProjetoQA.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danielle.coelho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10293,8 +10293,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj": {
-              "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj"
+            "C:\\Users\\danielle.coelho\\Desktop\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj": {
+              "projectPath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoQAAPI\\ProjetoPilotoQA\\ProjetoPilotoQA.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LbRjVdrHemjMckP3oxeFp3Zy0tvRMHaFRbjYiWBzCE097OkHiil3ASE6B2nbKXViiJuqOOA12M+qe0zDqCh7Ow==",
+  "dgSpecHash": "n9VZMZKZod8Zz9VYWPt3+fEh40yGZEz41CJn4hps98kXpDSMPxRBmz8TkQSaHYI60KehxIgfArX+VpIFKNpdmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoPilotoQA\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
+  "projectFilePath": "C:\\Users\\danielle.coelho\\Desktop\\ProjetoQAAPI\\ProjetoQA.Tests\\ProjetoQA.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danielle.coelho\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\danielle.coelho\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
